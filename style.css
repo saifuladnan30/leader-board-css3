@@ -1,0 +1,52 @@
+/* ========================
+------- Global start ------
+======================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+hr{
+    border: 1px solid #D1D1D1;
+}
+/* ========================
+---- Top Players start ----
+======================== */
+.container{
+    background-color: #ffffff;
+    width: 870px;
+    padding: 30px 30px;
+}
+.top-players{
+    margin-bottom: 30px;
+}
+.top-players h2 {
+    color: #562EFF;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 3px;
+    margin-bottom: 30px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+    padding-right: 10px;
+}
+.player h3{
+    font-weight: 400;
+    font-size: 18px;
+}
